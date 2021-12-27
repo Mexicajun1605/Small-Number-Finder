@@ -1,0 +1,27 @@
+
+
+puts "Please enter a number."
+no1 = gets.chomp.to_r
+
+puts "Please enter a number."
+no2 = gets.chomp.to_r
+
+puts "Please enter a number."
+no3 = gets.chomp.to_r
+
+if no1 in 1..10
+    puts true
+else
+     puts false
+end
+if no2 in 1..10
+    puts true
+else 
+    puts false
+    end
+if no3 in  1..10
+    puts true
+else 
+    puts false
+end
+
